@@ -22,7 +22,7 @@ function App() {
 
   return loading == false ? (
     <div className='flex flex-col items-center justify-center w-screen p-12'>
-      <h1 className='text-5xl font-bold text-blue-700'>Bayt Job Listings</h1>
+      <h1 className='text-5xl font-bold text-blue-600'>Bayt Job Listings</h1>
       <div className='flex justify-center w-full h-screen'>
         <div className='m-4 w-1/3 h-3/4'>
           <Map jobData={jobData} />
