@@ -1,8 +1,45 @@
 # React + Vite
+# Bayt Jobs Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Vite React application displays job titles from the Bayt client RSS feed in a table and showcases job locations on Google Maps with markers.
 
-Currently, two official plugins are available:
+The frontend is deployed and accessible at [https://ahmednashour.github.io/bayt-jobs-frontend/](https://ahmednashour.github.io/bayt-jobs-frontend/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React
+- Vite
+- Google Maps JavaScript API
+
+## Environment Variables
+
+This project also relies on environment variables for configuration. To set up these variables, create a file called `.env` in the root directory of this project and add the following variables, as specified in the email:
+
+```env
+# Example .env file
+VITE_GOOGLE_MAPS_API_KEY=<<key from the email>>
+```
+
+1-Clone the repository:
+
+```bash
+git clone <repository-url>
+cd bayt-jobs-frontend
+```
+2-Install dependencies:
+
+```bash
+npm install
+```
+3- Start the development server:
+
+```bash
+npm run dev
+```
+
+Backend API
+The frontend consumes data from the backend API, which is available at https://bayt-service.onrender.com.
+
+Demo Video
+[Add a link to your demo video here.]
+
