@@ -1,4 +1,3 @@
-# React + Vite
 # Bayt Jobs Frontend
 
 This Vite React application displays job titles from the Bayt client RSS feed in a table and showcases job locations on Google Maps with markers.
